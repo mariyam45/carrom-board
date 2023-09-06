@@ -1,0 +1,207 @@
+body {
+  background: #184d47;
+}
+.carrom-frame {
+  border: 5px solid brown;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px black;
+  background: #faf0af;
+}
+
+/* pockets  */
+.pockets {
+  height: 40px;
+  width: 40px;
+  background-image: radial-gradient(circle, rgb(60, 60, 60), rgba(0, 0, 0));
+  position: absolute;
+  border-radius: 50%;
+}
+.pocket-1 {
+  top: 0;
+  left: 0;
+}
+.pocket-2 {
+  top: 0;
+  right: 0;
+}
+.pocket-3 {
+  bottom: 0;
+  left: 0;
+}
+.pocket-4 {
+  bottom: 0;
+  right: 0;
+}
+/* -------------------- */
+
+/* base  */
+.base {
+  border: 3px solid #97623a;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+.top-base {
+  height: 5.5%;
+  width: 60%;
+  top: 14%;
+  left: 50%;
+  border-bottom: 1.5px solid #97623a;
+}
+.right-base {
+  height: 60%;
+  width: 5.5%;
+  top: 50%;
+  right: 8%;
+  border-left: 1.5px solid #97623a;
+}
+.left-base {
+  height: 60%;
+  width: 5.5%;
+  top: 50%;
+  left: 16%;
+  border-right: 1.5px solid #97623a;
+}
+.bottom-base {
+  height: 5.5%;
+  width: 60%;
+  bottom: 7%;
+  left: 50%;
+  border-top: 1.5px solid #97623a;
+}
+/* ------------------ */
+
+/* -------circle-------- */
+.orange-circle {
+  height: 14px;
+  width: 14px;
+  background: #e67904;
+  position: absolute;
+  border-radius: 50px;
+  margin: 3px 3px;
+}
+.orange-circle-1 {
+  top: 0%;
+  left: 0%;
+}
+.orange-circle-2 {
+  top: 0;
+  right: 0;
+}
+.orange-circle-3 {
+  top: 0%;
+  right: 0%;
+}
+.orange-circle-4 {
+  bottom: 0%;
+  right: 0%;
+}
+/* ---------- */
+
+/* outline--- */
+.outline {
+  height: 18px;
+  width: 18px;
+  border: 3px solid #97623a;
+  border-radius: 50%;
+  position: absolute;
+}
+.outline-1 {
+  top: -2px;
+  left: -1%;
+}
+.outline-2 {
+  top: -2px;
+  right: -1%;
+}
+.outline-3 {
+  top: -2px;
+  left: 0%;
+}
+.outline-4 {
+  bottom: -2px;
+  left: 0%;
+}
+/* ----------- */
+
+/* cornars */
+
+.corners {
+  height: 40px;
+  width: 40px;
+  border: 11px solid rgb(240, 129, 7);
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.corner-1 {
+  border-right: 0px;
+  border-bottom: 0px;
+  border-radius: 50% 0 0 0;
+  top: 4%;
+  left: 4.3%;
+}
+.corner-2 {
+  border-left: 0px;
+  border-bottom: 0px;
+  border-radius: 0 50% 0 0;
+  top: 4%;
+  right: -8.2%;
+}
+.corner-3 {
+  border-top: 0px;
+  border-left: 0px;
+  border-radius: 0 0 50% 0;
+  bottom: -8.5%;
+  right: -8.2%;
+}
+.corner-4 {
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 0 0 0 50%;
+  bottom: -8.5%;
+  left: 4%;
+}
+
+/* -------------- */
+
+/* arrows */
+.arrow {
+  position: absolute;
+  width: 98px;
+}
+.arrow-1 {
+  top: 9%;
+  left: 9.5%;
+}
+.arrow-2 {
+  top: 9%;
+  right: 9%;
+  rotate: 90deg;
+}
+.arrow-3 {
+  bottom: 9%;
+  right: 9%;
+  rotate: 180deg;
+}
+.arrow-4 {
+  bottom: 8%;
+  left: 10%;
+  rotate: -87deg;
+}
+/* --------- */
+
+/* center star  */
+.star {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ---------------- */
